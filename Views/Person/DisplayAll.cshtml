@@ -1,0 +1,56 @@
+﻿@model IEnumerable<DapperMvcDemo.Data.Models.Domain.Person>
+
+@{
+    ViewData["Title"] = "People List";
+}
+
+<h3 class="mt-3">People List</h3>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["msg"]
+    </div>
+}
+
+<div class="my-3">
+    <a href="/Person/Add" class="btn btn-primary mb-3">Add Person</a>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th> <!-- Added this line -->
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th style="width:150px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @foreach (var person in Model)
+                {
+                    <tr>
+                        <td>@person.Id</td> <!-- Added this line -->
+                        <td>@person.Name</td>
+                        <td>@person.Email</td>
+                        <td>@person.Address</td>
+                        <td>
+                            <a href="/Person/Edit?id=@person.Id" class="btn btn-sm btn-success">Edit</a>
+                            <a href="/Person/Delete?id=@person.Id"
+                               onclick="return confirm('Are you sure you want to delete this record?')"
+                               class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-center text-muted">No records found.</td> <!-- Now spans 5 columns -->
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

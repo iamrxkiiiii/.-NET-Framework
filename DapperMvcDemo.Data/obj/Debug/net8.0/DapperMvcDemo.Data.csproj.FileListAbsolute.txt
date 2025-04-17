@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\bin\Debug\net8.0\DapperMvcDemo.Data.deps.json
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\bin\Debug\net8.0\DapperMvcDemo.Data.dll
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\bin\Debug\net8.0\DapperMvcDemo.Data.pdb
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\DapperMvcDemo.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\DapperMvcDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\DapperMvcDemo.Data.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\DapperMvcDemo.Data.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\DapperMvcDemo.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\DapperMvcDemo.Data.sourcelink.json
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\DapperMvcDemo.Data.dll
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\refint\DapperMvcDemo.Data.dll
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\DapperMvcDemo.Data.pdb
+C:\Users\ASUS\source\repos\DapperMvcDemo.UI\DapperMvcDemo.Data\obj\Debug\net8.0\ref\DapperMvcDemo.Data.dll
